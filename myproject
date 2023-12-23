@@ -1,0 +1,61 @@
+<html>
+    <header>
+        <h1><center>This is the header(h1)</center></h1>
+    </header>
+    <nav class="container">
+    <ul>
+        <li><a href>Home</a></li>
+        <li><a href>About</a></li>
+        <li><a href>Contact</a></li>
+    </ul>
+    </nav>
+    <section class ="design">
+    
+        <h2>This is a section(h2)</h2>
+            <p>This is a paragraph(P)within a section</p>
+            <img src="" alt="An example image">
+            <ul text align:Right>
+                
+                <li>this is unordered list</li>
+                <li>item2</li>
+                <li>item3</li>
+            
+            </ul>
+            </section>
+            <br>
+        
+            <Aside class="container">
+                <h2>This is an Aside(h2)</h2>
+                <p>This is a paragraph</p>
+
+                </Aside>
+                <br>
+                
+    
+    
+    <style>
+        header{
+            background-color: green;
+            color: white;
+        }
+        footer{
+            background-color: green;
+            color: white;
+        }
+        .design{
+            margin-left: 5cm;
+            margin-bottom: auto;
+
+        }
+        .container{
+            width: 6cm;
+            height: 3cm;
+            background-color:lightblue;
+
+        }
+        </style>
+        <footer>
+            <center>This is a footer(p)</center>
+        </footer>
+        
+</html>
