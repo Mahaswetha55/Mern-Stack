@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        @media only screen and (min-width: 600px) {
+            .flex-container > div {
+                background-color: aquamarine;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  color:black;
+}
+           
+    }
+       .flex-container {
+  display: flex;
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  color:black;
+}
+.item1{
+    background-color: lightblue;
+
+}
+.item2{
+    background-color: violet ;
+}
+.item3{
+    background-color: aqua;
+}
+.item4{
+    background-color: aquamarine;
+}
+.item4{
+    background-color: cadetblue;
+}
+.item5{
+    background-color: brown;
+}
+.item6{
+    background-color: ch;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto ;
+    gap: 1px;
+
+}
+.grid-container > div {
+  margin: 10px;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 20px;
+  color: black;
+
+  
+}
+.item1 {
+  background-color: lightblue;
+}
+.item2 {
+  background-color: violet;
+}
+.item3 {
+  background-color: burlywood;
+}
+.item4{
+  background-color: peru;
+}
+
+
+</style>
+</head>
+<body>
+    <h1>FLEXBLOX</h1>
+    <div class="flex-container">
+        <div class="item1"><a href="#">Insta</a></div>
+        <div class="item2"><a href="#">LinkedIn</a></div>
+        <div class="item3"><a href="#">Youtube</a></div>
+        <div class="item4"><a href="#">Facebook</a></div>
+        <div class="item5"><a href="#">Whatsapp</a></div>
+        <div class="item6"><a href="#">Threads</a></div>
+        
+    </div>
+
+    <h1>Grid</h1>
+    <div class="grid-container">
+        <div class="item1">1</div>
+  <div class="item2">2</div>
+  <div class="item3">3</div>
+  <div class="item4">4</div>
+    </div>
+</body>
